@@ -1,0 +1,70 @@
+.regField {
+    width: 100%;
+    background-color: #f7f7f7;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.submitBtn {
+    width: 100%;
+    background: #22223b;
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+.underLine {
+    text-align: center;
+    margin: 7px 0 0 0;
+    display: block;
+}
+
+.linkBtn {
+    border: 0;
+    background-color: unset;
+    text-decoration: underline;
+    color: #3c4043;
+    padding: 0;
+    margin: 0;
+}
+
+.linkBtn:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.linkBtn:focus,
+.submitBtn:focus{
+    outline: none;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2d42; /* Background color */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
